@@ -7,7 +7,7 @@ id int(10) not null AUTO_INCREMENT,
 name varchar(10) not null,
 current double(10,2) default 0.00,
 primary key (id)
-)
+);
 
 --创建操作记录表
 create table schema1.operation(
