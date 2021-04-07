@@ -23,6 +23,6 @@ public class ServiceDemoApplication {
 	
     @RequestMapping("/hi")
     public String home(@RequestParam String name) {
-        return "hi "+name+",i am from port:" +port;
+        return "hiiii "+name+",i am from port:" +port;
     }
 }
